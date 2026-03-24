@@ -1,0 +1,23 @@
+{
+  "name": "janhlj-marketplace",
+  "owner": {
+    "name": "janhlj",
+    "email": "janhlj@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Personal plugin marketplace - custom skills and plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "chrome-cdp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/janhlj/chrome-cdp-skill.git"
+      },
+      "description": "Chrome DevTools Protocol - Give your AI agent access to your live Chrome session",
+      "version": "1.0.1",
+      "strict": true
+    }
+  ]
+}
