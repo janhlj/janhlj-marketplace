@@ -10,13 +10,23 @@
   },
   "plugins": [
     {
-      "name": "chrome-cdp",
+      "name": "cdp",
       "source": {
         "source": "url",
         "url": "https://github.com/janhlj/chrome-cdp-skill.git"
       },
-      "description": "Chrome DevTools Protocol - Give your AI agent access to your live Chrome session",
+      "description": "Chrome DevTools Protocol CLI - Access live Chrome session via CDP commands",
       "version": "1.0.1",
+      "strict": true
+    },
+    {
+      "name": "academic-rewrite",
+      "source": {
+        "source": "path",
+        "path": "plugins/academic-rewrite"
+      },
+      "description": "学术论文降重、去重、降低AIGC检测率 - 语义重构+困惑度+突发性+消除AI模板痕迹",
+      "version": "1.0.0",
       "strict": true
     }
   ]
